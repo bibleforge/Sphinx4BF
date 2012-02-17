@@ -120,14 +120,14 @@ static strong_irregular en_strong_irregular_b[] =
 	{ "bidden",	"",	3 }, // archaic
 	{ "bade",	"id",	1 },
 	{ "bound",	"ind",	1 },
-	{ "bitten",	"",	3 },
-	{ "bit",	"",	3 }, /// check
+	{ "bitten",	"e",	3 },
+	{ "bit",	"e",	3 },
 	{ "bled",	"ed",	3 },
 	{ "blew",	"ow",	2 },
 	{ "blown",	"",	4 },
 	{ "bred",	"ed",	3 },
 	{ "brethern",	"other",	2 }, // archaic
-	{ "brake",	"ok",	4 }, /// check
+	{ "brake",	"ok",	2 }, /// check
 	{ "broke",	"",	4 },
 	{ "broken",	"",	4 },
 	{ "brought",	"ing",	2 },
@@ -140,14 +140,14 @@ static strong_irregular en_strong_irregular_b[] =
 static strong_irregular en_strong_irregular_c[] =
 {
 	{ "caught",	"tch",	2 },
-	{ "came",	"om",	1 }, /// check
+	{ "came",	"ome",	1 }, /// check
 //	{ "canning",	"",	7 },
 //	{ "cannings",	"",	7 },
 	{ "canst",	"",	3 }, // archaic
 	{ "could",	"an",	1 },
 	{ "children",	"",	5 },
-	{ "chose",	"ose",	3 }, /// check
-	{ "chosen",	"ose",	3 },
+	{ "chose",	"os",	3 }, /// check
+	{ "chosen",	"os",	3 },
 	{ "clung",	"ing",	2 },
 	{ "crept",	"ep",	3 }
 };
@@ -161,10 +161,10 @@ static strong_irregular en_strong_irregular_d[] =
 	{ "done",	"",	2 },
 	{ "does",	"",	2 },
 	{ "doth",	"",	2 },
-	{ "dove",	"iv",	1 }, /// check
+	{ "dove",	"ive",	1 }, /// check
 	{ "drew",	"aw",	2 },
 	{ "driven",	"",	5 },
-	{ "drove",	"iv",	2 }, /// check
+	{ "drove",	"ive",	2 }, /// check
 	{ "drank",	"ink",	2 },
 	{ "drunk",	"ink",	2 },
 	{ "dug",	"ig",	1 },
@@ -214,7 +214,7 @@ static strong_irregular en_strong_irregular_f[] =
 
 static strong_irregular en_strong_irregular_g[] =
 {
-	{ "gave",	"iv",	1 }, /// check
+	{ "gave",	"ive",	1 }, /// check
 //	{ "geese",	"oose",	1 },
 	{ "gently",	"",	5 },
 	{ "given",	"",	4 },
@@ -239,8 +239,8 @@ static strong_irregular en_strong_irregular_h[] =
 	{ "heard",	"",	4 },
 	{ "held",	"old",	1 },
 	{ "hewn",	"",	3 },
-	{ "hid",	"",	3 }, /// check
-	{ "hidden",	"",	3 },
+	{ "hid",	"e",	3 }, /// check
+	{ "hidden",	"e",	3 },
 //	{ "howe",	"",	4 }, // rare
 	{ "hung",	"ang",	1 }
 };
@@ -278,7 +278,7 @@ static strong_irregular en_strong_irregular_l[] =
 
 static strong_irregular en_strong_irregular_m[] =
 {
-	{ "made",	"k",	2 }, /// check
+	{ "made",	"ke",	2 }, /// check
 	{ "men",	"an",	1 },
 	{ "met",	"et",	2 },
 	{ "might",	"ay",	1 }, // Could cause false hits with the subjunctive use of "may"
@@ -301,7 +301,7 @@ static strong_irregular en_strong_irregular_o[] =
 	{ "overcame",	"om",	5 },
 //	{ "overdid",	"o",	5 }, /// not used
 //	{ "overdone",	"",	6 }, /// not used
-	{ "overtook",	"ak",	5 },
+	{ "overtook",	"ak",	5 }, /// check
 	{ "overtaken",	"",	8 },
 	{ "overthrew",	"ow",	7 },
 	{ "overthrown",	"",	9 },
@@ -325,12 +325,13 @@ static strong_irregular en_strong_irregular_r[] =
 	{ "repaid",	"y",	4 },
 //	{ "rewrote",	"ite",	4 },
 //	{ "rewritten",	"e",	6 },
-	{ "rode",	"id",	1 }, /// check
-	{ "ridden",	"",	3 }, /// check
+	{ "rode",	"ide",	1 }, /// check
+	{ "ridden",	"e",	3 }, /// check
+	{ "rid",	"e",	3 }, /// check
 	{ "rang",	"ing",	1 },
 	{ "rung",	"ing",	1 },
 	{ "risen",	"",	4 },
-	{ "rose",	"is",	1 }, /// check
+	{ "rose",	"ise",	1 }, /// check
 	{ "ran",	"un",	1 }
 };
 
@@ -350,7 +351,7 @@ static strong_irregular en_strong_irregular_s[] =
 	{ "shalt",	"l",	4 },
 	{ "shaven",	"",	5 },
 	{ "shod",	"e",	3 }, // helpful?
-	{ "shook",	"ak",	2 }, /// check
+	{ "shook",	"ake",	2 }, /// check
 	{ "shone",	"ine",	2 },
 	{ "shorn",	"ear",	2 },
 	{ "shot",	"ot",	3 },
@@ -367,7 +368,7 @@ static strong_irregular en_strong_irregular_s[] =
 	{ "slept",	"ep",	3 },
 	{ "slain",	"y",	3 },
 	{ "slew",	"ay",	2 },
-//	{ "slid",	"e",	4 },
+	{ "slide",	"",	4 },    /// check
 	{ "slidden",	"",	4 },// needed? backslidden?
 	{ "slung",	"ing",	2 }, //used?
 	{ "smitten",	"",	4 }, // rare /// check
@@ -400,7 +401,7 @@ static strong_irregular en_strong_irregular_s[] =
 //	{ "strang",	"ing",	3 },
 //	{ "strung",	"ing",	3 },
 	{ "striven",	"",	6 }, // rare
-	{ "strove",	"iv",	3 },
+	{ "strove",	"ive",	3 }, /// check
 	{ "succeed",	"",	7 },
 	{ "sung",	"ing",	1 },
 	{ "sunk",	"ink",	1 },
@@ -446,8 +447,8 @@ static strong_irregular en_strong_irregular_w[] =
 	{ "whom",	"",	3 },
 	{ "whomsoever",	"soever",	3 }, // rare
 	{ "wilt",	"l",	3 },
-	{ "woke",	"ak",	1 },
-	{ "woken",	"ak",	1 },
+	{ "woke",	"ake",	1 },
+	{ "woken",	"ake",	1 },
 	{ "women",	"an",	3 },
 	{ "wore",	"ear",	1 },
 	{ "worn",	"ear",	1 },
@@ -557,6 +558,8 @@ bool stem_en_strong_irregular (BYTE *word, struct strong_irregular *stem_en_stro
 			//word += stem_en_strong_irregular_letter[i].len;
 			word[stem_en_strong_irregular_letter[i].len] = '\0';
 			strcat((char*)word, (char*)stem_en_strong_irregular_letter[i].add);
+			/// Testing the results.
+			//fprintf ( stdout, (char*)word );
 			return true;
 		}
 	}
@@ -730,6 +733,9 @@ void stem_en ( BYTE * word )
 
 	word[len] = 0;
 	for (i = 0; i < len; i++) if (word[i] == 'Y') word[i] = 'y';
+	
+	/// Testing the results.
+	//fprintf ( stdout, (char*)word );
 }
 
 //
