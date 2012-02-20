@@ -95,387 +95,387 @@ struct strong_irregular
 
 static strong_irregular en_strong_irregular_a[] =
 {
-	{ "abode",	"id",	2 },
-	{ "arose",	"is",	2 },
-	{ "arisen",	"",	4 },
-	{ "ate",	"eat",	0 },
-	{ "awoke",	"ak",	2 },
-	{ "awaken",	"",	4 }
+    { "abode",  "id",   2 },
+    { "arose",  "is",   2 },
+    { "arisen", "",     4 },
+    { "ate",    "eat",  0 },
+    { "awoke",  "ak",   2 },
+    { "awaken", "",     4 }
 };
 
 static strong_irregular en_strong_irregular_b[] =
 {
-	{ "befallen",	"",	5 }, // rare
-	{ "befell",	"al",	3 }, // rare
-	{ "beheld",	"old",	3 }, // rare
-	{ "besought",	"eech",	3 }, // rare
-  //{ "bore",	"ear",	1 }, // Cause confusion with "bore" (as in to drill)
-  //{ "born",	"ear",	1 }, // born and bear usually have different meanings
-	{ "became",	"om",	3 }, /// check
-	{ "began",	"in",	3 },
-	{ "begot",	"et",	3 }, // rare
-	{ "begotten",	"et",	3 }, // rare
-	{ "begun",	"in",	3 },
-	{ "bent",	"d",	3 },
-	{ "bidden",	"",	3 }, // archaic
-	{ "bade",	"id",	1 },
-	{ "bound",	"ind",	1 },
-	{ "bitten",	"e",	3 },
-	{ "bit",	"e",	3 },
-	{ "bits",	"e",	3 },
-	{ "blew",	"ow",	2 },
-	{ "blown",	"",	4 },
-	{ "bred",	"ed",	3 },
-	{ "breed",	"",	5 },
-	{ "brethren",	"other",	2 }, // archaic
-	{ "brake",	"ok",	2 }, /// check
-	{ "broke",	"",	4 },
-	{ "broken",	"",	4 },
-	{ "brought",	"ing",	2 },
-	{ "broughtest",	"ing",	2 },
-	{ "brung",	"ing",	2 },
-	{ "built",	"d",	4 },
-	{ "buildedst",	"",	5 },
-	{ "burnt",	"",	4 },
-	{ "bought",	"uy",	1 }
+    { "befallen",   "",     5 }, // rare
+    { "befell",     "al",   3 }, // rare
+    { "beheld",     "old",  3 }, // rare
+    { "besought",   "eech", 3 }, // rare
+  //{ "bore",       "ear",  1 }, // Cause confusion with "bore" (as in to drill)
+  //{ "born",       "ear",  1 }, // born and bear usually have different meanings
+    { "became",     "om",   3 }, /// check
+    { "began",      "in",   3 },
+    { "begot",      "et",   3 }, // rare
+    { "begotten",   "et",   3 }, // rare
+    { "begun",      "in",   3 },
+    { "bent",       "d",    3 },
+    { "bidden",     "",     3 }, // archaic
+    { "bade",       "id",   1 },
+    { "bound",      "ind",  1 },
+    { "bitten",     "e",    3 },
+    { "bit",        "e",    3 },
+    { "bits",       "e",    3 },
+    { "blew",       "ow",   2 },
+    { "blown",      "",     4 },
+    { "bred",       "ed",   3 },
+    { "breed",      "",     5 },
+    { "brethren",   "other",2 }, // archaic
+    { "brake",      "ok",   2 }, /// check
+    { "broke",      "",     4 },
+    { "broken",     "",     4 },
+    { "brought",    "ing",  2 },
+    { "broughtest", "ing",  2 },
+    { "brung",      "ing",  2 },
+    { "built",      "d",    4 },
+    { "buildedst",  "",     5 },
+    { "burnt",      "",     4 },
+    { "bought",     "uy",   1 }
 };
 
 static strong_irregular en_strong_irregular_c[] =
 {
-	{ "caught",	"tch",	2 },
-	{ "came",	"ome",	1 }, /// check (something is wrong (they came to Mahanaim) has no results)
-//	{ "canning",	"",	7 },
-//	{ "cannings",	"",	7 },
-	{ "canst",	"",	3 }, // archaic
-	{ "could",	"an",	1 },
-	{ "children",	"",	5 },
-	{ "chose",	"os",	3 }, /// check
-	{ "chosen",	"os",	3 },
-	{ "clung",	"ing",	2 },
-	{ "crept",	"ep",	3 }
+    { "caught",     "tch",  2 },
+    { "came",       "ome",  1 }, /// check (something is wrong (they came to Mahanaim) has no results)
+  //{ "canning",    "",     7 },
+  //{ "cannings",   "",     7 },
+    { "canst",      "",     3 }, // archaic
+    { "could",      "an",   1 },
+    { "children",   "",     5 },
+    { "chose",      "os",   3 }, /// check
+    { "chosen",     "os",   3 },
+    { "clung",      "ing",  2 },
+    { "crept",      "ep",   3 }
 };
 
 static strong_irregular en_strong_irregular_d[] =
 {
-	{ "data",	"um",	3 },
-	{ "dealt",	"",	4 },
-	{ "did",	"o",	1 },
-	{ "didst",	"o",	1 }, // archaic
-	{ "done",	"",	2 },
-	{ "does",	"",	2 },
-	{ "doth",	"",	2 },
-	{ "dove",	"ive",	1 }, /// check
-	{ "drew",	"aw",	2 },
-	{ "driven",	"",	5 },
-	{ "drove",	"ive",	2 }, /// check
-	{ "drank",	"ink",	2 },
-	{ "drunk",	"ink",	2 },
-	{ "dug",	"ig",	1 },
-	{ "dwelt",	"l",	4 },
-	{ "dying",	"ie",	1 } /// check
+    { "data",   "um",   3 },
+    { "dealt",  "",     4 },
+    { "did",    "o",    1 },
+    { "didst",  "o",    1 }, // archaic
+    { "done",   "",     2 },
+    { "does",   "",     2 },
+    { "doth",   "",     2 },
+    { "dove",   "ive",  1 }, /// check
+    { "drew",   "aw",   2 },
+    { "driven", "",     5 },
+    { "drove",  "ive",  2 }, /// check
+    { "drank",  "ink",  2 },
+    { "drunk",  "ink",  2 },
+    { "dug",    "ig",   1 },
+    { "dwelt",  "l",    4 },
+    { "dying",  "ie",   1 } /// check
 };
 
 static strong_irregular en_strong_irregular_e[] =
 {
-	{ "early",	"i",	4 },
-	{ "eaten",	"",	3 },
-	{ "enquire",	"inquire",	0 }, // rare
-	{ "enquired",	"inquire",	0 }, // rare
-	{ "enquiry",	"inquire",	0 }, // rare
-	{ "enquiring",	"inquire",	0 }, // rare
-	{ "exceed",	"",	6 }
+    { "early",      "i",        4 },
+    { "eaten",      "",         3 },
+    { "enquire",    "inquire",  0 }, // rare
+    { "enquired",   "inquire",  0 }, // rare
+    { "enquiry",    "inquire",  0 }, // rare
+    { "enquiring",  "inquire",  0 }, // rare
+    { "exceed",     "",         6 }
 };
 
 static strong_irregular en_strong_irregular_f[] =
 {
-	{ "fell",	"all",	1 },
-	{ "fallen",	"",	4 },
-	{ "fed",	"ed",	2 },
-	{ "feet",	"oot",	1 },
-	{ "felt",	"el",	2 },
-	{ "fought",	"ight",	1 },
-	{ "found",	"ind",	1 },
-	{ "fled",	"e",	3 }, /// check
-	{ "flung",	"ing",	2 },
-	{ "flew",	"y",	2 },
-	{ "flown",	"y",	2 },
-	{ "forbad",	"id",	4 },
-	{ "forbidden",	"",	6 },
-	{ "foreknew",	"ow",	6 },
-	{ "foresaw",	"ee",	5 },
-	{ "foretold",	"ell",	5 },
-	{ "forgot",	"et",	4 },
-	{ "forgotten",	"et",	4 },
-	{ "forgave",	"iv",	4 }, /// check
-	{ "forgiven",	"",	7 },
-//	{ "foreseen",	"",	7 },
-	{ "forsaken",	"",	7 },
-	{ "forsook",	"ak",	4 },
-	{ "froze",	"eez",	2 },
-	{ "frozen",	"eez",	2 }
+    { "fell",       "all",  1 },
+    { "fallen",     "",     4 },
+    { "fed",        "ed",   2 },
+    { "feet",       "oot",  1 },
+    { "felt",       "el",   2 },
+    { "fought",     "ight", 1 },
+    { "found",      "ind",  1 },
+    { "fled",       "e",    3 }, /// check
+    { "flung",      "ing",  2 },
+    { "flew",       "y",    2 },
+    { "flown",      "y",    2 },
+    { "forbad",     "id",   4 },
+    { "forbidden",  "",     6 },
+    { "foreknew",   "ow",   6 },
+    { "foresaw",    "ee",   5 },
+    { "foretold",   "ell",  5 },
+    { "forgot",     "et",   4 },
+    { "forgotten",  "et",   4 },
+    { "forgave",    "iv",   4 }, /// check
+    { "forgiven",   "",     7 },
+  //{ "foreseen",   "",     7 },
+    { "forsaken",   "",     7 },
+    { "forsook",    "ak",   4 },
+    { "froze",      "eez",  2 },
+    { "frozen",     "eez",  2 }
 };
 
 static strong_irregular en_strong_irregular_g[] =
 {
-	{ "gave",	"ive",	1 }, /// check
-//	{ "geese",	"oose",	1 },
-	{ "gently",	"",	5 },
-	{ "given",	"",	4 },
-	{ "gone",	"",	2 },
-	{ "got",	"et",	1 },
-	{ "gotten",	"et",	1 },
-	{ "grew",	"own",	2 },
-//	{ "ground",	"ind",	2 }, This will cause problems with the noun form
-	{ "grown",	"",	5 }
+    { "gave",   "ive",  1 }, /// check
+  //{ "geese",  "oose", 1 },
+    { "gently", "",     5 },
+    { "given",  "",     4 },
+    { "gone",   "",     2 },
+    { "got",    "et",   1 },
+    { "gotten", "et",   1 },
+    { "grew",   "own",  2 },
+  //{ "ground", "ind",  2 }, This will cause problems with the noun form
+    { "grown",  "",     5 }
 };
 
 static strong_irregular en_strong_irregular_h[] =
 {
-	{ "had",	"ve",	2 }, /// check
-	{ "hast",	"ve",	2 }, // archaic
-	{ "has",	"ve",	2 },
-	{ "haste",	"",	5 }, // unnecessary in Present Day English
-	{ "hasted",	"",	5 }, // unnecessary in Present Day English
-	{ "hasten",	"",	5 }, // unnecessary in Present Day English(?) // archaic
-	{ "hastening",	"",	5 }, // archaic
-	{ "hastened",	"",	5 }, // archaic
-	{ "heard",	"",	4 },
-	{ "held",	"old",	1 },
-	{ "hewn",	"",	3 },
-	{ "hid",	"e",	3 }, /// check
-	{ "hidden",	"e",	3 },
-//	{ "howe",	"",	4 }, // rare
-	{ "hung",	"ang",	1 }
+    { "had",        "ve",   2 }, /// check
+    { "hast",       "ve",   2 }, // archaic
+    { "has",        "ve",   2 },
+    { "haste",      "",     5 }, // unnecessary in Present Day English
+    { "hasted",     "",     5 }, // unnecessary in Present Day English
+    { "hasten",     "",     5 }, // unnecessary in Present Day English(?) // archaic
+    { "hastening",  "",     5 }, // archaic
+    { "hastened",   "",     5 }, // archaic
+    { "heard",      "",     4 },
+    { "held",       "old",  1 },
+    { "hewn",       "",     3 },
+    { "hid",        "e",    3 }, /// check
+    { "hidden",     "e",    3 },
+  //{ "howe",       "",     4 }, // rare
+    { "hung",       "ang",  1 }
 };
 /*
 static strong_irregular en_strong_irregular_i[] =
 {
-	{ "idly",	"",	3 },
-	{ "inning",	"",	6 },
-	{ "innings",	"",	6 }
+    { "idly",       "", 3 },
+    { "inning",     "", 6 },
+    { "innings",    "", 6 }
 };
 */
 static strong_irregular en_strong_irregular_k[] =
 {
-	{ "kept",	"ep",	2 },
-	{ "knelt",	"el",	3 },
-	{ "knew",	"ow",	2 },
-	{ "known",	"",	4 }
+    { "kept",   "ep",   2 },
+    { "knelt",  "el",   3 },
+    { "knew",   "ow",   2 },
+    { "known",  "",     4 }
 };
 
 static strong_irregular en_strong_irregular_l[] =
 {
-	{ "laid",	"y",	2 },
-	{ "laden",	"",	4 },
-//	{ "lead",	"d",	2 }, This will cause problems with the noun form
-	{ "lept",	"ap",	2 },
-	{ "learnt",	"",	5 }, // rare
-	{ "left",	"ave",	2 },
-	{ "lent",	"d",	3 },
-	{ "lain",	"ie",	1 },
-	{ "lien",	"",	3 }, // archaic
-	{ "lit",	"ght",	2 },
-//	{ "lost",	"e",	3 }, conflics
-	{ "lying",	"ie",	1 }
+    { "laid",   "y",    2 },
+    { "laden",  "",     4 },
+  //{ "lead",   "d",    2 }, This will cause problems with the noun form
+    { "lept",   "ap",   2 },
+    { "learnt", "",     5 }, // rare
+    { "left",   "ave",  2 },
+    { "lent",   "d",    3 },
+    { "lain",   "ie",   1 },
+    { "lien",   "",     3 }, // archaic
+    { "lit",    "ght",  2 },
+  //{ "lost",   "e",    3 }, conflics
+    { "lying",  "ie",   1 }
 };
 
 static strong_irregular en_strong_irregular_m[] =
 {
-	{ "made",	"ke",	2 }, /// check
-	{ "men",	"an",	1 },
-	{ "met",	"et",	2 },
-	{ "might",	"ay",	1 }, // Could cause false hits with the subjunctive use of "may"
-//	{ "mistook",	"ake",	4 },
-//	{ "mistaken",	"",	7 },
-	{ "mice",	"ouc",	1 },
-	{ "mown",	"",	3 }
+    { "made",       "ke",   2 }, /// check
+    { "men",        "an",   1 },
+    { "met",        "et",   2 },
+    { "might",      "ay",   1 }, // Could cause false hits with the subjunctive use of "may"
+  //{ "mistook",    "ake",  4 },
+  //{ "mistaken",   "",     7 },
+    { "mice",       "ouc",  1 },
+    { "mown",       "",     3 }
 };
 /*
 static strong_irregular en_strong_irregular_n[] =
 {
-	{ "news",	"",	4 }
+    { "news",   "", 4 }
 };
 */
 static strong_irregular en_strong_irregular_o[] =
 {
-	{ "only",	"i",	3 },
-	{ "outing",	"",	6 },
-	{ "outings",	"",	6 },
-	{ "overcame",	"om",	5 },
-//	{ "overdid",	"o",	5 }, /// not used
-//	{ "overdone",	"",	6 }, /// not used
-	{ "overtook",	"ak",	5 }, /// check
-	{ "overtaken",	"",	8 },
-	{ "overthrew",	"ow",	7 },
-	{ "overthrown",	"",	9 },
-	{ "oxen",	"",	2 }
+    { "only",       "i",    3 },
+    { "outing",     "",     6 },
+    { "outings",    "",     6 },
+    { "overcame",   "om",   5 },
+  //{ "overdid",    "o",    5 }, /// not used
+  //{ "overdone",   "",     6 }, /// not used
+    { "overtook",   "ak",   5 }, /// check
+    { "overtaken",  "",     8 },
+    { "overthrew",  "ow",   7 },
+    { "overthrown", "",     9 },
+    { "oxen",       "",     2 }
 };
 
 static strong_irregular en_strong_irregular_p[] =
 {
-	{ "paid",	"y",	2 },
-//	{ "people",	"rson",	2 }, // Causes problems with "peoples"
-	{ "pled",	"ad",	3 },
-	{ "pluckt",	"",	5 }, // rare
-	{ "proceed",	"",	7 }
-//	{ "proven",	"",	5 }
+    { "paid",       "y",    2 },
+  //{ "people",     "rson", 2 }, // Causes problems with "peoples"
+    { "pled",       "ad",   3 },
+    { "pluckt",     "",     5 }, // rare
+    { "proceed",    "",     7 }
+  //{ "proven",     "",     5 }
 };
 
 static strong_irregular en_strong_irregular_r[] =
 {
-//	{ "rebuilt",	"d",	6 }, //?
-	{ "rent",	"d",	3 }, // false hits with the noun rent
-	{ "repaid",	"y",	4 },
-//	{ "rewrote",	"ite",	4 },
-//	{ "rewritten",	"e",	6 },
-	{ "rode",	"ide",	1 }, /// check
-	{ "ridden",	"e",	3 }, /// check
-	{ "rid",	"e",	3 }, /// check
-	{ "rang",	"ing",	1 },
-	{ "rung",	"ing",	1 },
-	{ "risen",	"",	4 },
-	{ "rose",	"ise",	1 }, /// check
-	{ "ran",	"un",	1 }
+  //{ "rebuilt",    "d",    6 }, //?
+    { "rent",       "d",    3 }, // false hits with the noun rent
+    { "repaid",     "y",    4 },
+  //{ "rewrote",    "ite",  4 },
+  //{ "rewritten",   "e",   6 },
+    { "rode",       "ide",  1 }, /// check
+    { "ridden",     "e",    3 }, /// check
+    { "rid",        "e",    3 }, /// check
+    { "rang",       "ing",  1 },
+    { "rung",       "ing",  1 },
+    { "risen",      "",     4 },
+    { "rose",       "ise",  1 }, /// check
+    { "ran",        "un",   1 }
 };
 
 static strong_irregular en_strong_irregular_s[] =
 {
-	{ "said",	"y",	2 },
-	{ "sang",	"ing",	1 },
-	{ "sank",	"ink",	1 },
-	{ "sat",	"it",	1 },
-	{ "saw",	"ee",	1 },
-	{ "sawn",	"",	3 }, // rare
-	{ "seed",	"",	4 },
-	{ "seen",	"",	3 },
-	{ "sent",	"d",	3 },
-	{ "sewn",	"",	3 },
-	{ "shaken",	"",	5 },
-	{ "shalt",	"l",	4 },
-	{ "shaven",	"",	5 },
-	{ "shod",	"e",	3 }, // helpful?
-	{ "shook",	"ake",	2 }, /// check
-	{ "shone",	"ine",	2 },
-	{ "shorn",	"ear",	2 },
-	{ "shot",	"ot",	3 },
-	{ "show",	"ew",	2 }, // archaic
-//	{ "shown",	"ew",	2 }, // archaic // not used
-//	{ "shewn",	"",	4 }, // archaic // not used
-	{ "showed",	"ew",	2 }, // archaic
-	{ "showbread",	"ewbread",	2 }, // rare
-	{ "shrank",	"ink",	3 }, //used?
-	{ "shrunk",	"ink",	3 }, //used?
-	{ "singly",	"",	5 },
-	{ "skies",	"y",	2 },
-	{ "sky",	"",	3 },
-	{ "slept",	"ep",	3 },
-	{ "slain",	"y",	3 },
-	{ "slew",	"ay",	2 },
-	{ "slide",	"",	4 },    /// check
-	{ "slidden",	"",	4 },// needed? backslidden?
-	{ "slung",	"ing",	2 }, //used?
-	{ "smitten",	"",	4 }, // rare /// check
-	{ "smote",	"ite",	2 },
-//	{ "snuck",	"eak",	2 },
-	{ "sold",	"ell",	1 },
-	{ "sought",	"eek",	1 },
-	{ "sown",	"",	3 },
-	{ "spake",	"eak",	2 },
-	{ "spoke",	"eak",	2 },
-	{ "spoken",	"eak",	2 },
-	{ "sped",	"ed",	3 },
-	{ "spent",	"d",	4 },
-	{ "split",	"ill",	2 },
-	{ "span",	"in",	2 },
-	{ "spun",	"in",	2 },
-	{ "spat",	"it",	2 },
-	{ "sprang",	"ing",	3 },
-	{ "sprung",	"ing",	3 },
-	{ "stood",	"and",	2 },
-	{ "stole",	"eal",	2 },
-	{ "stolen",	"eal",	2 },
-	{ "stuck",	"ick",	2 }, // could cause problems
-	{ "stung",	"ing",	2 },
-	{ "stank",	"ink",	2 },
-	{ "stunk",	"ink",	2 },
-	{ "stridden",	"e",	5 },
-	{ "strod",	"id",	3 },
-	{ "struck",	"ik",	3 },
-//	{ "strang",	"ing",	3 },
-//	{ "strung",	"ing",	3 },
-	{ "striven",	"",	6 }, // rare
-	{ "strove",	"ive",	3 }, /// check
-	{ "succeed",	"",	7 },
-	{ "sung",	"ing",	1 },
-	{ "sunk",	"ink",	1 },
-	{ "swam",	"im",	2 },
-//	{ "swang",	"ing",	2 },
-	{ "swept",	"ep",	3 },
-	{ "swore",	"ear",	2 },
-	{ "sworen",	"ear",	2 },
-	{ "swollen",	"ell",	2 },
-	{ "swum",	"im",	2 }
-//	{ "swung",	"ing",	2 }
+    { "said",       "y",        2 },
+    { "sang",       "ing",      1 },
+    { "sank",       "ink",      1 },
+    { "sat",        "it",       1 },
+    { "saw",        "ee",       1 },
+    { "sawn",       "",         3 }, // rare
+    { "seed",       "",         4 },
+    { "seen",       "",         3 },
+    { "sent",       "d",        3 },
+    { "sewn",       "",         3 },
+    { "shaken",     "",         5 },
+    { "shalt",      "l",        4 },
+    { "shaven",     "",         5 },
+    { "shod",       "e",        3 }, // helpful?
+    { "shook",      "ake",      2 }, /// check
+    { "shone",      "ine",      2 },
+    { "shorn",      "ear",      2 },
+    { "shot",       "ot",       3 },
+    { "show",       "ew",       2 }, // archaic
+  //{ "shown",      "ew",       2 }, // archaic // not used
+  //{ "shewn",      "",         4 }, // archaic // not used
+    { "showed",     "ew",       2 }, // archaic
+    { "showbread",  "ewbread",  2 }, // rare
+    { "shrank",     "ink",      3 }, //used?
+    { "shrunk",     "ink",      3 }, //used?
+    { "singly",     "",         5 },
+    { "skies",      "y",        2 },
+    { "sky",        "",         3 },
+    { "slept",      "ep",       3 },
+    { "slain",      "y",        3 },
+    { "slew",       "ay",       2 },
+    { "slide",      "",         4 },    /// check
+    { "slidden",    "",         4 },// needed? backslidden?
+    { "slung",      "ing",      2 }, //used?
+    { "smitten",    "",         4 }, // rare /// check
+    { "smote",      "ite",      2 },
+  //{ "snuck",      "eak",      2 },
+    { "sold",       "ell",      1 },
+    { "sought",     "eek",      1 },
+    { "sown",       "",         3 },
+    { "spake",      "eak",      2 },
+    { "spoke",      "eak",      2 },
+    { "spoken",     "eak",      2 },
+    { "sped",       "ed",       3 },
+    { "spent",      "d",        4 },
+    { "split",      "ill",      2 },
+    { "span",       "in",       2 },
+    { "spun",       "in",       2 },
+    { "spat",       "it",       2 },
+    { "sprang",     "ing",      3 },
+    { "sprung",     "ing",      3 },
+    { "stood",      "and",      2 },
+    { "stole",      "eal",      2 },
+    { "stolen",     "eal",      2 },
+    { "stuck",      "ick",      2 }, // could cause problems
+    { "stung",      "ing",      2 },
+    { "stank",      "ink",      2 },
+    { "stunk",      "ink",      2 },
+    { "stridden",   "e",        5 },
+    { "strod",      "id",       3 },
+    { "struck",     "ik",       3 },
+  //{ "strang",     "ing",      3 },
+    //{ "strung",   "ing",      3 },
+    { "striven",    "",         6 }, // rare
+    { "strove",     "ive",      3 }, /// check
+    { "succeed",    "",         7 },
+    { "sung",       "ing",      1 },
+    { "sunk",       "ink",      1 },
+    { "swam",       "im",       2 },
+  //{ "swang",      "ing",      2 },
+    { "swept",      "ep",       3 },
+    { "swore",      "ear",      2 },
+    { "sworen",     "ear",      2 },
+    { "swollen",    "ell",      2 },
+    { "swum",       "im",       2 }
+  //{ "swung",      "ing",      2 }
 };
 
 static strong_irregular en_strong_irregular_t[] =
 {
-	{ "taken",	"",	4 },
-	{ "taught",	"each",	1 },
-	{ "teeth",	"ooth",	1 },
-	{ "took",	"ake",	1 },
-	{ "tore",	"ear",	1 },
-	{ "torn",	"ear",	1 },
-	{ "told",	"ell",	1 },
-	{ "thought",	"ink",	2 },
-//	{ "thriven",	"",	6 }, // rare
-	{ "threw",	"ow",	3 },
-	{ "thrown",	"",	5 },
-	{ "trod",	"ead",	2 },
-	{ "trodden",	"ead",	2 }, // archaic
-	{ "tying",	"tie",	1 } /// check
+    { "taken",      "",     4 },
+    { "taught",     "each", 1 },
+    { "teeth",      "ooth", 1 },
+    { "took",       "ake",  1 },
+    { "tore",       "ear",  1 },
+    { "torn",       "ear",  1 },
+    { "told",       "ell",  1 },
+    { "thought",    "ink",  2 },
+  //{ "thriven",    "",     6 }, // rare
+    { "threw",      "ow",   3 },
+    { "thrown",     "",     5 },
+    { "trod",       "ead",  2 },
+    { "trodden",    "ead",  2 }, // archaic
+    { "tying",      "tie",  1 } /// check
 };
 
 static strong_irregular en_strong_irregular_u[] =
 {
-	{ "ugly",	"i",	3 },
-	{ "understood",	"and",	7 },
-	{ "upheld",	"old",	3 }
+    { "ugly",       "i",    3 },
+    { "understood", "and",  7 },
+    { "upheld",     "old",  3 }
 };
 
 static strong_irregular en_strong_irregular_w[] =
 {
-	{ "waxen",	"",	3 }, // archaic
-	{ "went",	"go",	0 },
-	{ "whom",	"",	3 },
-	{ "whomsoever",	"soever",	3 }, // rare
-	{ "wilt",	"l",	3 },
-	{ "woke",	"ake",	1 },
-	{ "woken",	"ake",	1 },
-	{ "women",	"an",	3 },
-	{ "wore",	"ear",	1 },
-	{ "worn",	"ear",	1 },
-	{ "wove",	"eav",	1 },
-	{ "woven",	"eav",	1 },
-//	{ "wound",	"ind",	1 }, // could cause conflicts
-	{ "won",	"in",	1 },
-	{ "withdrawn",	"",	8 },
-	{ "withdrew",	"aw",	6 },
-	{ "withheld",	"old",	5 },
-	{ "withstood",	"and",	6 },
-	{ "wrung",	"ing",	2 },
-	{ "written",	"e",	4 },
-	{ "wrought",	"ork",	1 },
-	{ "wrote",	"ite",	2 }
+    { "waxen",      "",         3 }, // archaic
+    { "went",       "go",       0 },
+    { "whom",       "",         3 },
+    { "whomsoever", "soever",   3 }, // rare
+    { "wilt",       "l",        3 },
+    { "woke",       "ake",      1 },
+    { "woken",      "ake",      1 },
+    { "women",      "an",       3 },
+    { "wore",       "ear",      1 },
+    { "worn",       "ear",      1 },
+    { "wove",       "eav",      1 },
+    { "woven",      "eav",      1 },
+  //{ "wound",      "ind",      1 }, // could cause conflicts
+    { "won",        "in",       1 },
+    { "withdrawn",   "",        8 },
+    { "withdrew",   "aw",       6 },
+    { "withheld",   "old",      5 },
+    { "withstood",  "and",      6 },
+    { "wrung",      "ing",      2 },
+    { "written",    "e",        4 },
+    { "wrought",    "ork",      1 },
+    { "wrote",      "ite",      2 }
 };
 
+// Other possible words:
 // shall should will would
-
-//	{ "is",	"be" },
-//	{ "am",	"be" },
-//	{ "are",	"be" },
-//	{ "was",	"be" },
-//	{ "were",	"be" },
+//  { "is",     "be" },
+//  { "am",     "be" },
+//  { "are",    "be" },
+//  { "was",    "be" },
+//  { "were",   "be" },
 // he him his
 // it its it's
 // she her hers
