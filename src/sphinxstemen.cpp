@@ -147,11 +147,13 @@ static strong_irregular en_strong_irregular_c[] =
   //{ "canning",    "",     7 },
   //{ "cannings",   "",     7 },
     { "canst",      "",     3 }, // archaic
+    { "comely",     "i",    5 },
     { "could",      "an",   1 },
+    { "couldest",   "an",   1 },
     { "children",   "",     5 },
     { "chose",      "os",   3 }, /// check
-    { "chosen",     "os",   3 },
-    { "clung",      "ing",  2 },
+    { "chosen",     "os",   3 }, /// check
+  //{ "clung",      "ing",  2 }, // not used
     { "crept",      "ep",   3 }
 };
 
