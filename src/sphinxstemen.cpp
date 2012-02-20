@@ -97,21 +97,21 @@ static strong_irregular en_strong_irregular_a[] =
 {
 	{ "abode",	"id",	2 },
 	{ "arose",	"is",	2 },
-	{ "arisen",	"",	5 },
+	{ "arisen",	"",	4 },
 	{ "ate",	"eat",	0 },
 	{ "awoke",	"ak",	2 },
-	{ "awaken",	"",	5 }
+	{ "awaken",	"",	4 }
 };
 
 static strong_irregular en_strong_irregular_b[] =
 {
-	{ "befallen",	"",	6 }, // rare
-	{ "befell",	"all",	3 }, // rare
+	{ "befallen",	"",	5 }, // rare
+	{ "befell",	"al",	3 }, // rare
 	{ "beheld",	"old",	3 }, // rare
 	{ "besought",	"eech",	3 }, // rare
-	{ "bore",	"ear",	1 },
-	{ "born",	"ear",	1 },
-	{ "became",	"om",	3 },
+  //{ "bore",	"ear",	1 }, // Cause confusion with "bore" (as in to drill)
+  //{ "born",	"ear",	1 }, // born and bear usually have different meanings
+	{ "became",	"om",	3 }, /// check
 	{ "began",	"in",	3 },
 	{ "begot",	"et",	3 }, // rare
 	{ "begotten",	"et",	3 }, // rare
@@ -122,17 +122,20 @@ static strong_irregular en_strong_irregular_b[] =
 	{ "bound",	"ind",	1 },
 	{ "bitten",	"e",	3 },
 	{ "bit",	"e",	3 },
-	{ "bled",	"ed",	3 },
+	{ "bits",	"e",	3 },
 	{ "blew",	"ow",	2 },
 	{ "blown",	"",	4 },
 	{ "bred",	"ed",	3 },
-	{ "brethern",	"other",	2 }, // archaic
+	{ "breed",	"",	5 },
+	{ "brethren",	"other",	2 }, // archaic
 	{ "brake",	"ok",	2 }, /// check
 	{ "broke",	"",	4 },
 	{ "broken",	"",	4 },
 	{ "brought",	"ing",	2 },
-	{ "broung",	"ing",	2 },
+	{ "broughtest",	"ing",	2 },
+	{ "brung",	"ing",	2 },
 	{ "built",	"d",	4 },
+	{ "buildedst",	"",	5 },
 	{ "burnt",	"",	4 },
 	{ "bought",	"uy",	1 }
 };
@@ -140,7 +143,7 @@ static strong_irregular en_strong_irregular_b[] =
 static strong_irregular en_strong_irregular_c[] =
 {
 	{ "caught",	"tch",	2 },
-	{ "came",	"ome",	1 }, /// check
+	{ "came",	"ome",	1 }, /// check (something is wrong (they came to Mahanaim) has no results)
 //	{ "canning",	"",	7 },
 //	{ "cannings",	"",	7 },
 	{ "canst",	"",	3 }, // archaic
@@ -559,7 +562,8 @@ bool stem_en_strong_irregular (BYTE *word, struct strong_irregular *stem_en_stro
 			word[stem_en_strong_irregular_letter[i].len] = '\0';
 			strcat((char*)word, (char*)stem_en_strong_irregular_letter[i].add);
 			/// Testing the results.
-			//fprintf ( stdout, (char*)word );
+			fprintf ( stdout, "\nStrong stem\n");
+			fprintf ( stdout, (char*)word );
 			return true;
 		}
 	}
@@ -735,7 +739,8 @@ void stem_en ( BYTE * word )
 	for (i = 0; i < len; i++) if (word[i] == 'Y') word[i] = 'y';
 	
 	/// Testing the results.
-	//fprintf ( stdout, (char*)word );
+	fprintf ( stdout, "\nWeak stem\n");
+	fprintf ( stdout, (char*)word );
 }
 
 //
