@@ -132,11 +132,11 @@ static strong_irregular en_strong_irregular_b[] =
     { "broke",      "",     4 },
     { "broken",     "",     4 },
     { "brought",    "ing",  2 },
-    { "broughtest", "ing",  2 },
+    { "broughtest", "ing",  2 }, // archaic
     { "brung",      "ing",  2 },
     { "built",      "d",    4 },
     { "buildedst",  "",     5 },
-    { "burnt",      "",     4 },
+    { "burnt",      "",     4 }, // archaic
     { "bought",     "uy",   1 }
 };
 
@@ -149,32 +149,38 @@ static strong_irregular en_strong_irregular_c[] =
     { "canst",      "",     3 }, // archaic
     { "comely",     "i",    5 },
     { "could",      "an",   1 },
-    { "couldest",   "an",   1 },
+    { "couldest",   "an",   1 }, // archaic
     { "children",   "",     5 },
     { "chose",      "os",   3 }, /// check
     { "chosen",     "os",   3 }, /// check
   //{ "clung",      "ing",  2 }, // not used
-    { "crept",      "ep",   3 }
+    { "crept",      "ep",   3 }  // archaic
 };
 
 static strong_irregular en_strong_irregular_d[] =
 {
-    { "data",   "um",   3 },
-    { "dealt",  "",     4 },
-    { "did",    "o",    1 },
-    { "didst",  "o",    1 }, // archaic
-    { "done",   "",     2 },
-    { "does",   "",     2 },
-    { "doth",   "",     2 },
-    { "dove",   "ive",  1 }, /// check
-    { "drew",   "aw",   2 },
-    { "driven", "",     5 },
-    { "drove",  "ive",  2 }, /// check
-    { "drank",  "ink",  2 },
-    { "drunk",  "ink",  2 },
-    { "dug",    "ig",   1 },
-    { "dwelt",  "l",    4 },
-    { "dying",  "ie",   1 } /// check
+  //{ "data",       "um",   3 }, // not used
+    { "dealt",      "",     4 },
+    { "did",        "o",    1 },
+    { "didst",      "o",    1 }, // archaic
+    { "done",       "",     2 },
+    { "does",       "",     2 },
+    { "doth",       "",     2 }, // archaic
+    { "dost",       "",     2 }, // archaic
+  //{ "dove",       "ive",  1 }, /// not used
+    { "drawn",      "",     4 },
+    { "drew",       "aw",   2 },
+    { "driven",     "",     5 },
+    { "drove",      "ive",  2 }, /// check
+    { "drank",      "ink",  2 },
+    { "drunk",      "ink",  2 },
+    { "dug",        "ig",   1 },
+    { "dwelling",   "",     8 }, ///NOTE: "dwelling" is primarily used as a noun
+    { "dwellings",  "",     8 },
+    { "dwelt",      "l",    4 },
+    { "dieth",      "",     3 }  /// check
+    { "diest",      "",     3 }  /// check
+    { "dying",      "ie",   1 }  /// check
 };
 
 static strong_irregular en_strong_irregular_e[] =
@@ -226,6 +232,7 @@ static strong_irregular en_strong_irregular_g[] =
     { "gone",   "",     2 },
     { "got",    "et",   1 },
     { "gotten", "et",   1 },
+    { "graft",  "f",    4 },
     { "grew",   "own",  2 },
   //{ "ground", "ind",  2 }, This will cause problems with the noun form
     { "grown",  "",     5 }
