@@ -185,13 +185,13 @@ static strong_irregular en_strong_irregular_d[] =
 
 static strong_irregular en_strong_irregular_e[] =
 {
-    { "early",      "i",        4 },
-    { "eaten",      "",         3 },
-    { "enquire",    "inquire",  0 }, // rare
-    { "enquired",   "inquire",  0 }, // rare
-    { "enquiry",    "inquire",  0 }, // rare
-    { "enquiring",  "inquire",  0 }, // rare
-    { "exceed",     "",         6 }
+  //{ "early",      "i",       4 }, // not used
+    { "eaten",      "",        3 },
+    { "enquire",    "inquir",  0 }, // rare
+    { "enquired",   "inquir",  0 }, // rare
+    { "enquiry",    "inquir",  0 }, // rare
+    { "enquiring",  "inquir",  0 }, // rare
+    { "exceed",     "",        6 }
 };
 
 static strong_irregular en_strong_irregular_f[] =
