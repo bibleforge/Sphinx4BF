@@ -199,26 +199,38 @@ static strong_irregular en_strong_irregular_f[] =
     { "fell",       "all",  1 },
     { "fallen",     "",     4 },
     { "fed",        "ed",   2 },
+    { "feed",       "",     4 },
     { "feet",       "oot",  1 },
     { "felt",       "el",   2 },
     { "fought",     "ight", 1 },
     { "found",      "ind",  1 },
     { "fled",       "e",    3 }, /// check
-    { "flung",      "ing",  2 },
-    { "flew",       "y",    2 },
-    { "flown",      "y",    2 },
+    { "fleddest"    "e",    3 }, /// check
+  //{ "fleddeth"    "e",    3 }, // extremely rare
+    { "fleest"      "",     4 },
+    { "fleeth"      "",     4 },
+  //{ "flung",      "ing",  2 }, // not used
+    { "flew",       "i",    2 }, ///NOTE: "fly" is stemmed as "fli".
+    { "flies",      "",     5 }, ///NOTE: "files" always refers to the insect, not the verb.
+    { "flown",      "i",    2 }, ///NOTE: "fly" is stemmed as "fli".
     { "forbad",     "id",   4 },
+    { "forbade",    "id",   4 },
     { "forbidden",  "",     6 },
     { "foreknew",   "ow",   6 },
-    { "foresaw",    "ee",   5 },
-    { "foretold",   "ell",  5 },
+    { "foreknown",  "",     8 },
+    { "foresaw",    "",     5 }, ///NOTE: foresee is stemmed to "fores".
+    { "foreseeing", "",     5 }, /// check
+    { "foreseen",   "",     5 },
+    { "foretold",   "el",   5 },
     { "forgot",     "et",   4 },
     { "forgotten",  "et",   4 },
     { "forgave",    "iv",   4 }, /// check
-    { "forgiven",   "",     7 },
-  //{ "foreseen",   "",     7 },
-    { "forsaken",   "",     7 },
+    { "forgavest",  "iv",   4 },
+  //{ "forgaveth",  "iv",   4 }, // extremely rare
+    { "forgiven",   "",     6 },
+    { "forsaken",   "",     6 },
     { "forsook",    "ak",   4 },
+    { "forsookest", "ak",   4 },
     { "froze",      "eez",  2 },
     { "frozen",     "eez",  2 }
 };
