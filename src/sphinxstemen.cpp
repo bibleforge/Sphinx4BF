@@ -178,8 +178,8 @@ static strong_irregular en_strong_irregular_d[] =
     { "dwelling",   "",     8 }, ///NOTE: "dwelling" is primarily used as a noun
     { "dwellings",  "",     8 },
     { "dwelt",      "l",    4 },
-    { "dieth",      "",     3 }  /// check
-    { "diest",      "",     3 }  /// check
+    { "dieth",      "",     3 }, /// check
+    { "diest",      "",     3 }, /// check
     { "dying",      "ie",   1 }  /// check
 };
 
