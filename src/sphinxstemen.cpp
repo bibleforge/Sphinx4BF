@@ -748,21 +748,21 @@ void stem_en ( BYTE * word )
 		len -= 3;
 	}
 
-	// *** STEP 5A ***
-
-	while (word[len-1] == 'e') {
-		if (len > r2) { len--; break; }
-		if (len <= r1) break;
-		if (len > 3 && !stem_en_iv(word[len-4]) && stem_en_iv(word[len-3])
-			&& !stem_en_ivwxy(word[len-2])) break;
-		if (len == 3 && stem_en_iv(word[0]) && !stem_en_iv(word[1])) break;
-		len--;
-		break;
-	}
-
-	// *** STEP 5B ***
-
-	if (len > r2 && word[len-1] == 'l' && word[len-2] == 'l') len--;
+	// *** STEP 5 ***
+    
+	if (len > r2 && word[len-1] == 'l' && word[len-2] == 'l') {
+	   len--;
+    } else {
+        while (word[len-1] == 'e') {
+            if (len > r2) { len--; break; }
+            if (len <= r1) break;
+            if (len > 3 && !stem_en_iv(word[len-4]) && stem_en_iv(word[len-3])
+                && !stem_en_ivwxy(word[len-2])) break;
+            if (len == 3 && stem_en_iv(word[0]) && !stem_en_iv(word[1])) break;
+            len--;
+            break;
+        }
+    }
 
 	// *** FINALIZE ***
 
