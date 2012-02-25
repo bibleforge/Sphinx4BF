@@ -660,7 +660,7 @@ void stem_en ( BYTE * word )
 	i = 0;
 	for ( ;; )
 	{
-		if (SUFF2('e','e')) { // Early Modern English fix
+		if (SUFF3('e','e','d')) {
 			if (len-3 >= r1) len--;
 			break;
 		}
