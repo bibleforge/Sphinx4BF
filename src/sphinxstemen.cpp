@@ -255,21 +255,28 @@ static strong_irregular en_strong_irregular_g[] =
 
 static strong_irregular en_strong_irregular_h[] =
 {
-    { "had",        "ve",   2 }, /// check
-    { "hast",       "ve",   2 }, // archaic
-    { "has",        "ve",   2 },
-    { "haste",      "",     5 }, // unnecessary in Present Day English
-    { "hasted",     "",     5 }, // unnecessary in Present Day English
-    { "hasten",     "",     5 }, // unnecessary in Present Day English(?) // archaic
-    { "hastening",  "",     5 }, // archaic
-    { "hastened",   "",     5 }, // archaic
-    { "heard",      "",     4 },
-    { "held",       "old",  1 },
-    { "hewn",       "",     3 },
-    { "hid",        "e",    3 }, /// check
-    { "hidden",     "e",    3 },
-  //{ "howe",       "",     4 }, // rare
-    { "hung",       "ang",  1 }
+    { "had",         "ve",  2 }, /// check
+    { "hadst",       "ve",  2 }, // archaic
+  //{ "haddest",     "ve",  2 }, // extremely rare
+    { "hast",        "ve",  2 }, // archaic
+    { "has",         "ve",  2 },
+  //{ "haste",       "",    5 }, // unnecessary in Present Day English
+  //{ "hasted",      "",    5 }, // unnecessary in Present Day English
+    { "hasten",      "",    4 }, // unnecessary in Present Day English(?) // archaic
+    { "hastening",   "",    4 }, // archaic
+    { "hastened",    "",    4 }, // archaic
+    { "hasteneth",   "",    4 }, // archaic
+    { "heard",       "",    4 },
+    { "heardest",    "",    4 }, // archaic
+    { "hearkenedst", "",    7 }, // archaic
+    ///NOTE: The word "holds" is used in the Bible only as a noun, such as "strong holds"; however, it is a common Present Day English form.
+    { "held",        "old", 1 },
+    { "hewn",        "",    3 },
+    { "hid",         "e",   3 }, /// check
+    { "hidden",      "e",   3 },
+  //{ "howe",        "",    4 }, // rare
+    ///NOTE: "hanging" almost always refers to the noun; "hangings" always does.
+    { "hung",        "ang", 1 }
 };
 /*
 static strong_irregular en_strong_irregular_i[] =
