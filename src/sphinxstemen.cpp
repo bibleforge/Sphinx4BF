@@ -238,9 +238,12 @@ static strong_irregular en_strong_irregular_f[] =
 static strong_irregular en_strong_irregular_g[] =
 {
     { "gave",   "ive",  1 }, /// check
-  //{ "geese",  "oose", 1 },
+    { "gaveth", "ive",  1 },
+  //{ "gavest", "ive",  1 }, // extremely rare
+  //{ "geese",  "oos",  1 },
     { "gently", "",     5 },
     { "given",  "",     4 },
+    { "goings", "",     6 },
     { "gone",   "",     2 },
     { "got",    "et",   1 },
     { "gotten", "et",   1 },
