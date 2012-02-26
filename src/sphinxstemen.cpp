@@ -300,8 +300,8 @@ static strong_irregular en_strong_irregular_l[] =
     { "laden",  "",     4 },
   //{ "lead",   "d",    2 }, This will cause problems with the noun form
     { "lept",   "ap",   2 },
-    { "learnt", "",     5 }, // rare
-    { "left",   "av",  2 },
+  //{ "learnt", "",     5 }, // rare
+    { "left",   "av",   2 },
     { "lent",   "d",    3 },
     { "lain",   "ie",   1 },
     { "lien",   "",     3 }, // archaic
