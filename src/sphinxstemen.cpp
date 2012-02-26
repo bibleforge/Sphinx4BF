@@ -218,9 +218,9 @@ static strong_irregular en_strong_irregular_f[] =
     { "forbidden",  "",     6 },
     { "foreknew",   "ow",   6 },
     { "foreknown",  "",     8 },
-    { "foresaw",    "",     5 }, ///NOTE: foresee is stemmed to "fores".
-    { "foreseeing", "",     5 }, /// check
-    { "foreseen",   "",     5 },
+    { "foresaw",    "e",    5 }, ///NOTE: foresee is stemmed to "forese".
+    { "foreseeing", "",     6 }, /// check
+    { "foreseen",   "",     6 },
     { "foretold",   "el",   5 },
     { "forgot",     "et",   4 },
     { "forgotten",  "et",   4 },
