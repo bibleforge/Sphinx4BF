@@ -376,7 +376,7 @@ static strong_irregular en_strong_irregular_s[] =
     { "sank",       "ink",      1 },
     { "sat",        "it",       1 },
     { "saw",        "ee",       1 },
-    { "sawn",       "",         3 }, // rare
+  //{ "sawn",       "",         3 }, // could cause conflicts
     { "seed",       "",         4 },
     { "seen",       "",         3 },
     { "sent",       "d",        3 },
@@ -433,7 +433,7 @@ static strong_irregular en_strong_irregular_s[] =
     { "strod",      "id",       3 },
     { "struck",     "ik",       3 },
   //{ "strang",     "ing",      3 },
-    //{ "strung",   "ing",      3 },
+  //{ "strung",     "ing",      3 },
     { "striven",    "",         6 }, // rare
     { "strove",     "ive",      3 }, /// check
     { "succeed",    "",         7 },
@@ -502,11 +502,11 @@ static strong_irregular en_strong_irregular_w[] =
 
 // Other possible words:
 // shall should will would
-//  { "is",     "be" },
-//  { "am",     "be" },
-//  { "are",    "be" },
-//  { "was",    "be" },
-//  { "were",   "be" },
+//  { "is",   "be", 0 },
+//  { "am",   "be", 0 },
+//  { "are",  "be", 0 },
+//  { "was",  "be", 0 },
+//  { "were", "be", 0 },
 // he him his
 // it its it's
 // she her hers
