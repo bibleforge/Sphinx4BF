@@ -318,7 +318,7 @@ static strong_irregular en_strong_irregular_m[] =
     { "might",      "ay",   1 }, // Could cause false hits with the subjunctive use of "may"
   //{ "mistook",    "ake",  4 },
   //{ "mistaken",   "",     7 },
-    { "mice",       "ouc",  1 },
+    { "mice",       "ous",  1 },
     { "mown",       "",     3 }
 };
 /*
