@@ -89,7 +89,7 @@ static stem_table en_step4[] =
 
 struct strong_irregular
 {
-	BYTE form[11], add[8];
+	BYTE form[12], add[8];
 	int len;
 };
 
