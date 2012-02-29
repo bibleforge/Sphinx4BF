@@ -205,10 +205,10 @@ static strong_irregular en_strong_irregular_f[] =
     { "fought",     "ight", 1 },
     { "found",      "ind",  1 },
     { "fled",       "e",    3 }, /// check
-    { "fleddest"    "e",    3 }, /// check
+    { "fleddest",   "e",    3 }, /// check
   //{ "fleddeth"    "e",    3 }, // extremely rare
-    { "fleest"      "",     4 },
-    { "fleeth"      "",     4 },
+    { "fleest",     "",     4 },
+    { "fleeth",     "",     4 },
   //{ "flung",      "ing",  2 }, // not used
     { "flew",       "i",    2 }, ///NOTE: "fly" is stemmed as "fli".
     { "flies",      "",     5 }, ///NOTE: "files" always refers to the insect, not the verb.
