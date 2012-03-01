@@ -361,7 +361,6 @@ static strong_irregular en_strong_irregular_r[] =
   //{ "rewritten",   "e",   6 },
     { "rode",       "ide",  1 }, /// check
     { "ridden",     "e",    3 }, /// check
-    { "rid",        "e",    3 }, /// check
     { "rang",       "ing",  1 },
     { "rung",       "ing",  1 },
     { "risen",      "",     4 },
