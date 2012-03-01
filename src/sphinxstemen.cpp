@@ -135,7 +135,6 @@ static strong_irregular en_strong_irregular_b[] =
     { "broughtest", "ing",  2 }, // archaic
     { "brung",      "ing",  2 },
     { "built",      "d",    4 },
-    { "buildedst",  "",     5 },
     { "burnt",      "",     4 }, // archaic
     { "bought",     "uy",   1 }
 };
@@ -268,7 +267,6 @@ static strong_irregular en_strong_irregular_h[] =
     { "hasteneth",   "",    4 }, // archaic
     { "heard",       "",    4 },
     { "heardest",    "",    4 }, // archaic
-    { "hearkenedst", "",    7 }, // archaic
     ///NOTE: The word "holds" is used in the Bible only as a noun, such as "strong holds"; however, it is a common Present Day English form.
     { "held",        "old", 1 },
     { "hewn",        "",    3 },
@@ -679,12 +677,12 @@ void stem_en ( BYTE * word )
 		}
 		if (SUFF2('e','d')) { i = 2; break; }
 		if (SUFF3('i','n','g')) { i = 3; break; }
-		// Begin Early Modern English fix
-		if (SUFF3('e','s','t')) { i = 3; break; }
-		if (SUFF3('e','t','h')) { i = 3; break; }
-		// End Early Modern English fix
 		if (SUFF4('e','d','l','y')) { i = 4; break; }
 		if (SUFF5('i','n','g','l','y')) { i = 5; break; }
+		// Special endings for Early Modern English
+		if (SUFF3('e','s','t')) { i = 3; break; }
+		if (SUFF3('e','t','h')) { i = 3; break; }
+		if (SUFF4('e','d','s','t')) { i = 4; break; }
 		break;
 	}
 	if (i) for (j = 0; j < len-i; j++) if (stem_en_iv(word[j])) {
