@@ -329,7 +329,7 @@ static strong_irregular en_strong_irregular_n[] =
 */
 static strong_irregular en_strong_irregular_o[] =
 {
-  //{ "only",       "i",    3 },
+    { "only",       "",     4 },
   //{ "outing",     "",     6 }, // not used
   //{ "outings",    "",     6 }, // not used
     { "overcame",   "om",   5 },
