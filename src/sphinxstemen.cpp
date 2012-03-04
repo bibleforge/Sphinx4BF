@@ -426,21 +426,19 @@ static strong_irregular en_strong_irregular_s[] =
     { "stung",      "ing",      2 },
     { "stank",      "ink",      2 },
     { "stunk",      "ink",      2 },
-    { "stridden",   "e",        5 },
-    { "strod",      "id",       3 },
-    { "struck",     "ik",       3 },
+    { "struck",     "ike",      3 },
   //{ "strang",     "ing",      3 },
   //{ "strung",     "ing",      3 },
     { "striven",    "",         6 }, // rare
     { "strove",     "ive",      3 }, /// check
-    { "succeed",    "",         7 },
+    { "succeed",    "",         7 }, // necessary?
     { "sung",       "ing",      1 },
     { "sunk",       "ink",      1 },
     { "swam",       "im",       2 },
   //{ "swang",      "ing",      2 },
     { "swept",      "ep",       3 },
     { "swore",      "ear",      2 },
-    { "sworen",     "ear",      2 },
+    { "sworn",      "ear",      2 },
     { "swollen",    "ell",      2 },
     { "swum",       "im",       2 }
   //{ "swung",      "ing",      2 }
