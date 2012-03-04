@@ -381,7 +381,6 @@ static strong_irregular en_strong_irregular_s[] =
     { "shaken",     "",         5 },
     { "shalt",      "l",        4 },
     { "shaven",     "",         5 },
-    { "shod",       "e",        3 }, // helpful?
     { "shook",      "ake",      2 }, /// check
     { "shone",      "ine",      2 },
     { "shorn",      "ear",      2 },
@@ -396,13 +395,14 @@ static strong_irregular en_strong_irregular_s[] =
     { "singly",     "",         5 },
     { "skies",      "y",        2 },
     { "sky",        "",         3 },
+    { "slang",      "ing",      2 },
     { "slept",      "ep",       3 },
     { "slain",      "y",        3 },
     { "slew",       "ay",       2 },
     { "slide",      "",         4 },    /// check
-    { "slidden",    "",         4 },// needed? backslidden?
+    { "slidden",    "",         4 }, //needed? backslidden?
     { "slung",      "ing",      2 }, //used?
-    { "smitten",    "",         4 }, // rare /// check
+    { "smitten",    "e",        4 }, // rare /// check
     { "smote",      "ite",      2 },
   //{ "snuck",      "eak",      2 },
     { "sold",       "ell",      1 },
@@ -413,7 +413,7 @@ static strong_irregular en_strong_irregular_s[] =
     { "spoken",     "eak",      2 },
     { "sped",       "ed",       3 },
     { "spent",      "d",        4 },
-    { "split",      "ill",      2 },
+    { "spilt",      "l",        4 },
     { "span",       "in",       2 },
     { "spun",       "in",       2 },
     { "spat",       "it",       2 },
