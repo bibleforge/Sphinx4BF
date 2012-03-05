@@ -474,7 +474,7 @@ static strong_irregular en_strong_irregular_w[] =
     { "waxen",      "",         3 }, // archaic
     { "went",       "go",       0 },
     { "whom",       "",         3 },
-    { "whomsoever", "soever",   3 }, // rare
+    { "whomsoever", "soev",     3 }, // rare
     { "wilt",       "l",        3 },
     { "woke",       "ake",      1 },
     { "woken",      "ake",      1 },
@@ -488,6 +488,7 @@ static strong_irregular en_strong_irregular_w[] =
     { "withdrawn",   "",        8 },
     { "withdrew",   "aw",       6 },
     { "withheld",   "old",      5 },
+    { "withholden", "",         8 },
     { "withstood",  "and",      6 },
     { "wrung",      "ing",      2 },
     { "written",    "e",        4 },
