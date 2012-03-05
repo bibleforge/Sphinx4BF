@@ -459,7 +459,7 @@ static strong_irregular en_strong_irregular_t[] =
     { "thrown",     "",     5 },
     { "trod",       "ead",  2 },
     { "trodden",    "ead",  2 }, // archaic
-    { "tying",      "tie",  1 } /// check
+    { "tying",      "ie",   1 } /// check
 };
 
 static strong_irregular en_strong_irregular_u[] =
