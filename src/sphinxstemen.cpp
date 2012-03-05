@@ -589,8 +589,8 @@ bool stem_en_strong_irregular (BYTE *word, struct strong_irregular *stem_en_stro
 			word[stem_en_strong_irregular_letter[i].len] = '\0';
 			strcat((char*)word, (char*)stem_en_strong_irregular_letter[i].add);
 			/// Testing the results.
-			fprintf ( stdout, "\nStrong stem\n");
-			fprintf ( stdout, (char*)word );
+			//fprintf ( stdout, "\nStrong stem\n");
+			//fprintf ( stdout, (char*)word );
 			return true;
 		}
 	}
@@ -766,8 +766,8 @@ void stem_en ( BYTE * word )
 	for (i = 0; i < len; i++) if (word[i] == 'Y') word[i] = 'y';
 	
 	/// Testing the results.
-	fprintf ( stdout, "\nWeak stem\n");
-	fprintf ( stdout, (char*)word );
+	//fprintf ( stdout, "\nWeak stem\n");
+	//fprintf ( stdout, (char*)word );
 }
 
 //
