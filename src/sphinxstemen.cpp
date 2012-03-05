@@ -464,7 +464,7 @@ static strong_irregular en_strong_irregular_t[] =
 
 static strong_irregular en_strong_irregular_u[] =
 {
-    { "ugly",       "i",    3 },
+  //{ "ugly",       "i",    3 },
     { "understood", "and",  7 },
     { "upheld",     "old",  3 }
 };
