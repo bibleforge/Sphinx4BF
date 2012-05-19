@@ -582,14 +582,14 @@ void stem_en ( unsigned char * word, int len )
 			// shortcuts
 			if ( iword==0x74616874 ) return; // that
 			if ( iword==0x68746977 ) return; // with
-			if ( iword==0x64696173 ) return; // said
+			//if ( iword==0x64696173 ) return; // said (already stemmed above)
 			if ( iword==0x6d6f7266 ) return; // from
 
 			// exceptions
 			if ( iword==0x7377656e ) return; // news
-			if ( iword==0x65776f68 ) return; // howe
+			//if ( iword==0x65776f68 ) return; // howe (not used)
 		}
-/*
+		/*
 		// all those exceptions only have a few valid endings; early check
 		switch ( word[len-1] )
 		{
