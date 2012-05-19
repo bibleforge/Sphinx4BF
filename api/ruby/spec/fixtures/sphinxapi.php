@@ -5,7 +5,9 @@
 //
 
 //
-// Copyright (c) 2001-2008, Andrew Aksyonoff. All rights reserved.
+// Copyright (c) 2001-2012, Andrew Aksyonoff
+// Copyright (c) 2008-2012, Sphinx Technologies Inc
+// All rights reserved
 //
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License. You should have
@@ -136,7 +138,7 @@ function sphUnpack64 ( $v )
 	// x64 route
 	if ( PHP_INT_SIZE>=8 )
 	{
-		if ( $h<0 ) $h += (1<<32); // because php 5.2.2 to 5.2.5 is totally messed up again
+		if ( $h<0 ) $h += (1<<32); // because php 5.2.2 to 5.2.5 is totally fucked up again
 		if ( $l<0 ) $l += (1<<32);
 		return ($h<<32) + $l;
 	}

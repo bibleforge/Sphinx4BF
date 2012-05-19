@@ -30,15 +30,23 @@
       know about them.  */
    enum yytokentype {
      TOK_KEYWORD = 258,
-     TOK_INT = 259,
-     TOK_FIELDLIMIT = 260,
-     TOK_BEFORE = 261
+     TOK_NEAR = 259,
+     TOK_INT = 260,
+     TOK_FIELDLIMIT = 261,
+     TOK_ZONE = 262,
+     TOK_BEFORE = 263,
+     TOK_SENTENCE = 264,
+     TOK_PARAGRAPH = 265
    };
 #endif
 #define TOK_KEYWORD 258
-#define TOK_INT 259
-#define TOK_FIELDLIMIT 260
-#define TOK_BEFORE 261
+#define TOK_NEAR 259
+#define TOK_INT 260
+#define TOK_FIELDLIMIT 261
+#define TOK_ZONE 262
+#define TOK_BEFORE 263
+#define TOK_SENTENCE 264
+#define TOK_PARAGRAPH 265
 
 
 
@@ -54,11 +62,12 @@ typedef union YYSTYPE {
 	} tInt;
 	struct							// field spec
 	{
-		DWORD		uMask;			// acceptable fields mask
+		CSphSmallBitvec		dMask;			// acceptable fields mask
 		int			iMaxPos;		// max allowed position within field
 	} tFieldLimit;
+	int				iZoneVec;
 } YYSTYPE;
-/* Line 1248 of yacc.c.  */
+/* Line 1204 of yacc.c.  */
 
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
 # define YYSTYPE_IS_DECLARED 1

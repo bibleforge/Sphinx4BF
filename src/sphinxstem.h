@@ -1,9 +1,11 @@
 //
-// $Id: sphinxstem.h 1350 2008-07-09 15:42:26Z shodan $
+// $Id: sphinxstem.h 3087 2012-01-30 23:07:35Z shodan $
 //
 
 //
-// Copyright (c) 2001-2008, Andrew Aksyonoff. All rights reserved.
+// Copyright (c) 2001-2012, Andrew Aksyonoff
+// Copyright (c) 2008-2012, Sphinx Technologies Inc
+// All rights reserved
 //
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License. You should have
@@ -23,7 +25,7 @@ void	stem_en_init ();
 void	stem_ru_init ();
 
 /// stem lowercase English word
-void	stem_en ( BYTE * pWord );
+void	stem_en ( BYTE * pWord, int iLen );
 
 /// stem lowercase Russian word in Windows-1251 encoding
 void	stem_ru_cp1251 ( BYTE * pWord );
@@ -47,5 +49,5 @@ void	stem_dmetaphone ( BYTE * pWord, bool bUTF8 );
 #endif // _sphinxstem_
 
 //
-// $Id: sphinxstem.h 1350 2008-07-09 15:42:26Z shodan $
+// $Id: sphinxstem.h 3087 2012-01-30 23:07:35Z shodan $
 //

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="libsphinx"
 	ProjectGUID="{6A1685DE-0265-4243-965F-96CB53EBBCA6}"
 	RootNamespace="libsphinx"
@@ -21,8 +21,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="$(SolutionDir)/bin/$(PlatformName)/$(ConfigurationName)"
-			IntermediateDirectory="$(SolutionDir)/junk/$(PlatformName)/$(ConfigurationName)"
+			OutputDirectory="$(SolutionDir)/bin/$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)/junk/$(ConfigurationName)"
 			ConfigurationType="4"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			CharacterSet="2"
@@ -56,7 +56,77 @@
 				ProgramDataBaseFileName="$(IntDir)/$(ProjectName).pdb"
 				WarningLevel="4"
 				Detect64BitPortabilityProblems="false"
-				DebugInformationFormat="4"
+				DebugInformationFormat="3"
+				EnablePREfast="false"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)/libsphinx.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug|x64"
+			OutputDirectory="$(SolutionDir)/bin/$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)/junk/$(ConfigurationName)"
+			ConfigurationType="4"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			CharacterSet="2"
+			ExcludeBuckets="5;6;8;9;13;15"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				TargetEnvironment="3"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="$(SolutionDir)/libstemmer_c/include; $(SolutionDir)/libexpat/lib"
+				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="0"
+				ProgramDataBaseFileName="$(IntDir)/$(ProjectName).pdb"
+				WarningLevel="4"
+				Detect64BitPortabilityProblems="false"
+				DebugInformationFormat="3"
 				EnablePREfast="false"
 			/>
 			<Tool
@@ -90,8 +160,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="$(SolutionDir)/bin/$(PlatformName)/$(ConfigurationName)"
-			IntermediateDirectory="$(SolutionDir)/junk/$(PlatformName)/$(ConfigurationName)"
+			OutputDirectory="$(SolutionDir)/bin/$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)/junk/$(ConfigurationName)"
 			ConfigurationType="4"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			CharacterSet="2"
@@ -114,6 +184,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
+				Optimization="2"
 				AdditionalIncludeDirectories="$(SolutionDir)/libstemmer_c/include; $(SolutionDir)/libexpat/lib"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				ExceptionHandling="0"
@@ -154,79 +225,9 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Debug|x64"
-			OutputDirectory="$(SolutionDir)/bin/$(PlatformName)/$(ConfigurationName)"
-			IntermediateDirectory="$(SolutionDir)/junk/$(PlatformName)/$(ConfigurationName)"
-			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
-			CharacterSet="2"
-			ExcludeBuckets="5;6;8;9;13;15"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-				TargetEnvironment="3"
-			/>
-			<Tool
-				Name="VCCLCompilerTool"
-				Optimization="0"
-				AdditionalIncludeDirectories="$(SolutionDir)/libstemmer_c/include; $(SolutionDir)/libexpat/lib"
-				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
-				MinimalRebuild="true"
-				ExceptionHandling="0"
-				BasicRuntimeChecks="3"
-				RuntimeLibrary="1"
-				UsePrecompiledHeader="0"
-				ProgramDataBaseFileName="$(IntDir)/$(ProjectName).pdb"
-				WarningLevel="4"
-				Detect64BitPortabilityProblems="false"
-				DebugInformationFormat="3"
-				EnablePREfast="false"
-			/>
-			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCPreLinkEventTool"
-			/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile="$(OutDir)/libsphinx.lib"
-			/>
-			<Tool
-				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
-		</Configuration>
-		<Configuration
 			Name="Release|x64"
-			OutputDirectory="$(SolutionDir)/bin/$(PlatformName)/$(ConfigurationName)"
-			IntermediateDirectory="$(SolutionDir)/junk/$(PlatformName)/$(ConfigurationName)"
+			OutputDirectory="$(SolutionDir)/bin/$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)/junk/$(ConfigurationName)"
 			ConfigurationType="4"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			CharacterSet="2"
@@ -250,6 +251,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
+				Optimization="2"
 				AdditionalIncludeDirectories="$(SolutionDir)/libstemmer_c/include; $(SolutionDir)/libexpat/lib"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				ExceptionHandling="0"
@@ -299,55 +301,63 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..src\sphinx.cpp"
+				RelativePath="..\src\sphinx.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxexcerpt.cpp"
+				RelativePath="..\src\sphinxexcerpt.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxexpr.cpp"
+				RelativePath="..\src\sphinxexpr.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxfilter.cpp"
+				RelativePath="..\src\sphinxfilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxmetaphone.cpp"
+				RelativePath="..\src\sphinxmetaphone.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxquery.cpp"
+				RelativePath="..\src\sphinxquery.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxsort.cpp"
+				RelativePath="..\src\sphinxrt.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxsoundex.cpp"
+				RelativePath="..\src\sphinxsearch.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxstd.cpp"
+				RelativePath="..\src\sphinxsort.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxstemcz.cpp"
+				RelativePath="..\src\sphinxsoundex.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxstemen.cpp"
+				RelativePath="..\src\sphinxstd.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxstemru.cpp"
+				RelativePath="..\src\sphinxstemcz.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxutils.cpp"
+				RelativePath="..\src\sphinxstemen.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\sphinxstemru.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\sphinxutils.cpp"
 				>
 			</File>
 		</Filter>
@@ -357,24 +367,15 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..src\sphinx.h"
+				RelativePath="..\src\sphinx.h"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
-						CommandLine="$(SolutionDir)src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
-						Outputs="$(SolutionDir)src\nonexistent"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						CommandLine="$(SolutionDir)src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
-						Outputs="$(SolutionDir)src\nonexistent"
+						CommandLine="$(SolutionDir)\src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
+						Outputs="$(SolutionDir)\src\nonexistent"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -382,8 +383,17 @@
 					>
 					<Tool
 						Name="VCCustomBuildTool"
-						CommandLine="$(SolutionDir)src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
-						Outputs="$(SolutionDir)src\nonexistent"
+						CommandLine="$(SolutionDir)\src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
+						Outputs="$(SolutionDir)\src\nonexistent"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						CommandLine="$(SolutionDir)\src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
+						Outputs="$(SolutionDir)\src\nonexistent"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -391,41 +401,53 @@
 					>
 					<Tool
 						Name="VCCustomBuildTool"
-						CommandLine="$(SolutionDir)src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
-						Outputs="$(SolutionDir)src\nonexistent"
+						CommandLine="$(SolutionDir)\src\svnxrev.wsf $(SolutionDir)&#x0D;&#x0A;"
+						Outputs="$(SolutionDir)\src\nonexistent"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..src\sphinxexcerpt.h"
+				RelativePath="..\src\sphinxexcerpt.h"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxexpr.h"
+				RelativePath="..\src\sphinxexpr.h"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxfilter.h"
+				RelativePath="..\src\sphinxfilter.h"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxquery.h"
+				RelativePath="..\src\sphinxint.h"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxstd.h"
+				RelativePath="..\src\sphinxquery.h"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxstem.h"
+				RelativePath="..\src\sphinxrt.h"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxtimers.h"
+				RelativePath="..\src\sphinxsearch.h"
 				>
 			</File>
 			<File
-				RelativePath="..src\sphinxutils.h"
+				RelativePath="..\src\sphinxstd.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\sphinxstem.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\sphinxtimers.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\sphinxutils.h"
 				>
 			</File>
 		</Filter>
