@@ -640,8 +640,9 @@ void stem_en ( unsigned char * word, int len )
 				if ( EXC6 ( word, "singly" ) )		{ word[5] = '\0'; return; }
 				break;
 		}
+		*/
 	}
-*/
+	
 	// hide consonant-style y's
 	if ( word[0]=='y' )
 		word[0] = has_Y = 'Y';
