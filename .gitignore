@@ -1,2 +1,7 @@
 junk
 win/*.user
+Makefile
+config.log
+config.status
+config.h
+src/.deps/*.Po
