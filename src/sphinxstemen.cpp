@@ -404,6 +404,8 @@ static strong_irregular en_strong_irregular_u[] =
 
 static strong_irregular en_strong_irregular_w[] =
 {
+    { "was",        "",         3 }, // This is to make "was" and "wast" match together.
+    { "wast",       "",         3 }, // archaic
     { "waxen",      "",         3 }, // archaic
     { "went",       "go",       0 },
     { "whom",       "",         3 },
@@ -435,6 +437,7 @@ static strong_irregular en_strong_irregular_w[] =
 //  { "am",   "be", 0 },
 //  { "are",  "be", 0 },
 //  { "was",  "be", 0 },
+//  { "wast", "be", 0 },
 //  { "were", "be", 0 },
 // he him his
 // it its it's
@@ -563,7 +566,7 @@ void stem_en ( unsigned char * word, int len )
 		CHECK3 ( 't', 'h', 'e' );
 		CHECK3 ( 'a', 'n', 'd' );
 		CHECK3 ( 'y', 'o', 'u' );
-		CHECK3A ( 'w', 'a', 's' );
+//		CHECK3A ( 'w', 'a', 's' ); /// Removed to match "was" and "wast" together.
 		CHECK3A ( 'h', 'i', 's' );
 		CHECK3 ( 'f', 'o', 'r' );
 		CHECK3 ( 'h', 'e', 'r' );
