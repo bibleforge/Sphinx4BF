@@ -190,8 +190,9 @@ static strong_irregular en_strong_irregular_h[] =
     { "had",         "ve",  2 }, /// check
     { "hadst",       "ve",  2 }, // archaic
   //{ "haddest",     "ve",  2 }, // extremely rare
-    { "hast",        "ve",  2 }, // archaic
     { "has",         "ve",  2 },
+    { "hast",        "ve",  2 }, // archaic
+    { "hath",        "ve",  2 }, // archaic
   //{ "haste",       "",    5 }, // unnecessary in Present Day English
   //{ "hasted",      "",    5 }, // unnecessary in Present Day English
     { "hasten",      "",    4 }, // unnecessary in Present Day English(?) // archaic
@@ -572,7 +573,7 @@ void stem_en ( unsigned char * word, int len )
 		CHECK3 ( 'h', 'e', 'r' );
 		CHECK3 ( 's', 'h', 'e' );
 		CHECK3 ( 'b', 'u', 't' );
-		CHECK3 ( 'h', 'a', 'd' );
+//		CHECK3 ( 'h', 'a', 'd' ); /// Removed since this word can also appear as "have," "hast," "hath," etc.
 		CHECK3 ( 's', 'k', 'y' );
 	}
 
