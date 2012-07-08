@@ -5,3 +5,11 @@ config.log
 config.status
 config.h
 src/.deps/*.Po
+src/*.o
+src/search
+src/searchd
+src/indexer
+src/indextool
+src/spelldump
+src/libsphinx.a
+src/tests
